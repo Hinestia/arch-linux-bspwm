@@ -12,11 +12,15 @@
 1. Загрузите Arch Linux с USB:
 Вставьте USB-накопитель и выберите его для загрузки в BIOS/UEFI.
 
-2. Подключитесь к интернету:
+### 2. Подключитесь к интернету:
+```bash
 iwctl
 device list
 station <устройство> scan
 station <устройство> get-networks
 station <устройство> connect <SSID>
 exit
+```
+
+
 
